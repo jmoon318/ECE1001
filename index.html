@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS 2340 Team31 Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>CS 2340 Team31 - Sustainable Food Management App</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>The project "GreenPlate: A Sustainable Food Management System" is dedicated to promoting sustainable eating and shopping habits.
+             Its design focuses on reducing food waste and promoting efficient resource use.
+             GreenPlate enables users to actively contribute to a sustainable lifestyle by tracking daily calorie intake, creating recipes, managing ingredient quantities, and generating shopping lists.
+              It provides actionable insights into recipes, ingredients, and purchasing needs for upcoming meals, thus improving grocery shopping, diet management, and daily food preparation.
+        </p>
+    </section>
+
+    <section id="design">
+        <h2>Design & Architecture</h2>
+        <p>The architectural design of GreenPlate is structured to support a robust and scalable food management system.
+            The application implements design patterns such as Singleton and Strategy to enhance flexibility and maintainability. 
+            Key architectural components include a user authentication system using Firebase, a database for recipes, ingredients, and meal tracking, and synchronized operations between user inputs and database updates.
+            UML diagrams provide a visual representation of the system’s architecture, emphasizing the interaction between different classes and the flow of data.
+        </p>
+        <!-- Placeholder for UML Diagram -->
+        <img src="uml_diagram.png" alt="UML Diagram">
+    </section>
+
+    <section id="user-interface">
+        <h2>User Interface</h2>
+        <p>Once signed in to the app, the user is greeted by the home screen. To navigate between the various screens and use the app's various functions, the user can then use the navbar at the top of the screen (circled in yellow) to select which page they'd like to visit. The title of the current screen is always displayed below the navbar. Our app consists of a home screen, a meal screen, a recipe screen, an ingredients screen, a shopping list screen, and a personal information screen- all of which share data and collaborate to store information about ingredients and meals to ultimately encourage healthier eating habits. Seen in the second photo below, for example, is the recipe screen. Here, it can be seen how a user enters the name of a recipe, along with its ingredients and their quantities. Recipes can then be saved and viewed in the scrollable recipe list. This data can then be used to add ingredients to the shopping list, cook the recipe and calculate calories, etc; all of which is explained in more depth throughout the functionality video.</p>
+        <div style="display: flex; justify-content: space-around;">
+            <img src="screen1.png" alt="Screen 1" style="width: 45%; height: auto; margin: 10px;">
+            <img src="screen2.png" alt="Screen 2" style="width: 45%; height: auto; margin: 10px;">
+        </div>
+    </section>
+    
+
+    <section id="functionality">
+        <h2>Functionality</h2>
+        <p>Check out the features!</p>
+        <a href="https://youtu.be/aourcx9BbcM">Watch our demo</a>
+    </section>
+
+    <section id="conclusions">
+        <h2>Conclusions and Reflections</h2>
+        <p>The development of the GreenPlate app has been an insightful journey, reflecting significant learning and challenges.
+             Key accomplishments include the successful integration of Firebase for user authentication and data management, and the implementation of a responsive UI that enhances user engagement. 
+             Challenges such as ensuring data consistency across different parts of the application were addressed through the strategic use of design patterns and rigorous testing.
+              The project outcomes demonstrate the potential of digital solutions in supporting sustainable food management practices.
+        </p>
+    </section>
+
+    <footer>
+        <h2>Contributors</h2>
+        <p>Jungwoo Moon, Zachary Elis, Sarah Koo, David Schmitz, Aayush Singh.</p>
+        <p>Homepage contributors: Jungwoo Moon, Zachary Elis</p>
+    </footer>
+</body>
+</html>

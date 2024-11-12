@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    background: #f0f0f0; /* Lighter shade for better readability */
+    text-align: center;
+    font-family: Arial, sans-serif; /* Adding a universal font for better typography */
+}
+
+header, footer {
+    background-color: #00796b; /* Deep teal color */
+    color: white;
+    padding: 20px 0;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+img {
+    width: 80%; /* Scale images to fit in their containers */
+    margin-top: 20px;
+}
